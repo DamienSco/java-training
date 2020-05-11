@@ -210,7 +210,7 @@ public class FundamentalsTraining {
     //      System.out.println(FundamentalsTraining.addIfInferiorSubstractIfSuperiorOrEquals(4, 3));
     // }
     
-    /******************************************
+    /******************************************                    A REVOIR !!
      * @param first, eg: true
      * @param second, eg: false
      * @return true if first and second value is true, eg: false
