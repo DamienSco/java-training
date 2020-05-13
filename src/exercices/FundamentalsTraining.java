@@ -215,17 +215,17 @@ public class FundamentalsTraining {
     //       }
     // }
 
-    // /******************************************                
+    // /******************************************               A REVOIR 
     //  * @param first, eg: 4
     //  * @param second, eg: 3
     //  * @param isNotFirst, eg: false
     //  * @return first value if isNotFirst is false, second value otherwise, eg: 4
     //  */
-    public static int whichValueIsThis(int first, int second, boolean isNotFirst) {
-        if (isNotFirst = false) {
-            return  first;
-          } else {
-            return second;
-          }
-    }
+    // public static int whichValueIsThis(int first, int second, boolean isNotFirst) {
+    //     if (isNotFirst = false) {
+    //         return  first;
+    //       } else {
+    //         return second;
+    //       }
+    // }
 }
