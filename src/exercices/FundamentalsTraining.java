@@ -157,38 +157,30 @@ public class FundamentalsTraining {
           }
     }
 
-    // /******************************************                     A REVOIR !! 
+    // /******************************************              
     //  * @param first, eg: 4
     //  * @param second, eg: 3
     //  * @return first plus second if first inferior to second,
     //  * first minus second if first superior or equals to second, eg: 1
     //  */
-    // public static int addIfInferiorSubstractIfSuperiorOrEquals(int first, int second) {
-    //     if (first < second) {
-    //         return first + second;
-    //       } else if (first >= second)
-    //       return second - first;
-    // }
-    
-    //  public static void main(String[] args) {
-    //      System.out.println(FundamentalsTraining.addIfInferiorSubstractIfSuperiorOrEquals(4, 3));
-    // }
+    public static int addIfInferiorSubstractIfSuperiorOrEquals(int first, int second) {
+        if (first < second) {
+            return first + second;
+          } else return first - second;
+    }
 
-    // /******************************************                    A REVOIR !!
+    // /******************************************              
     //  * @param first, eg: true
     //  * @param second, eg: false
     //  * @return true if first and second value is true, eg: false
     //  */
-    // public static boolean firstAndSecond(boolean first, boolean second) {
-    //     // if (first = true) && (second = true) {
-    //     //     return "true";
-    //     //   } else {
-    //         return false;
-    //     //   }
-    // }
-    // //   public static void main(String[] args) {
-    // //      System.out.println(FundamentalsTraining.firstAndSecond(true, false));
-    // // }
+    public static boolean firstAndSecond(boolean first, boolean second) {
+     if (first && second)  {
+            return true;
+        } else {  
+          return false;
+        }
+    }
 
     // /******************************************
     //  * @param first, eg: false
@@ -203,18 +195,17 @@ public class FundamentalsTraining {
           }
     }
 
-    // /******************************************        A REVOIR
-    //  * @param value, eg: true
-    //  * @return false if value is true, true otherwise, eg: false
-    //  */
-    // public static boolean notValue(boolean value) {
-    //     if (value = true) {
-    //         return false;
-    //       } else {
-    //         return true;
-    //       }
-    // }
-
+    /******************************************    
+     * @param value, eg: true
+     * @return false if value is true, true otherwise, eg: false
+     */
+    public static boolean notValue(boolean value) {
+        if (value) {
+            return false;
+          } else {
+            return true;
+          }
+    }
     // /******************************************               A REVOIR 
     //  * @param first, eg: 4
     //  * @param second, eg: 3
