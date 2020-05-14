@@ -188,7 +188,7 @@ public class FundamentalsTraining {
     //  * @return true if first and second value are equals, eg: true
     //  */
     public static boolean booleanEquals(boolean first, boolean second) {
-        if (first == second) {
+        if (first = second) {
             return true;
           } else {
             return false;
@@ -206,17 +206,17 @@ public class FundamentalsTraining {
             return true;
           }
     }
-    // /******************************************               A REVOIR 
+    // /******************************************            
     //  * @param first, eg: 4
     //  * @param second, eg: 3
     //  * @param isNotFirst, eg: false
     //  * @return first value if isNotFirst is false, second value otherwise, eg: 4
     //  */
-    // public static int whichValueIsThis(int first, int second, boolean isNotFirst) {
-    //     if (isNotFirst = false) {
-    //         return  first;
-    //       } else {
-    //         return second;
-    //       }
-    // }
+    public static int whichValueIsThis(int first, int second, boolean isNotFirst) {
+        if (isNotFirst = false) {
+            return  first;
+          } else {
+            return second;
+          }
+    }
 }
