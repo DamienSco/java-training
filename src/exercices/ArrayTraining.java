@@ -149,9 +149,13 @@ public class ArrayTraining {
      * @param array, eg: {1, 2, 3}
      * @return array with reversed values, eg: {3, 2, 1}
      */
-//    public int[] reverse(int[] array) {
-//      return array.reverse(array);
-//    }
+   public int[] reverse(int[] array) {
+     int [] tmpArray = new int [array.length];
+      for(int i = 0; i < array.length; i++){
+        tmpArray [i] = array [array.length - i];
+      }
+      return tmpArray;
+    }
 
     /**
      * @param first,  eg: {1, 2, 3}
